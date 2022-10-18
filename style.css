@@ -1,0 +1,245 @@
+body{
+     font-family:Verdana,sans-serif;;
+     margin:0px;
+     padding:0px;
+}
+.top,.left,.right,.btn,.btn2,.btn3,.btn4{
+        background-color:#ffffff;
+}
+.top{
+     width:100%;
+     top: 0;
+     position: fixed;
+     z-index: 1;
+     display: block;
+     height:55px;
+     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.btn,.btn2,.btn3,.btn4,.button-left,.button-right{
+          vertical-align: middle;
+}
+.button-left{
+     float:left;
+     letter-spacing:4px;
+     font-size: 15px;
+     line-height: 1.5;
+     white-space: normal;
+     border:none;
+     text-decoration:none;
+     cursor:pointer;
+     display: inline-block;
+     padding: 8px 16px;
+     margin-top:10px;
+     margin-left:15px;
+     overflow: hidden;
+     color: inherit;
+}
+.button-right{
+     float:right;
+     letter-spacing:4px;
+     font-size: 15px;
+     line-height: 1.5;
+     white-space: normal;
+     border:none;
+     text-decoration:none;
+     cursor:pointer;
+     display: inline-block;
+     padding: 8px 16px;
+     margin-right:15px;
+     margin-top:10px;
+     overflow: hidden;
+}
+.button-right,.button-left,.text,.text2,.text3,.TEXT,.TEXT2,.TEXT3,.TEXT4, p, p, p, p, p1, p1, p1, p1{
+              font-family: Verdana,sans-serif;
+}
+.button-right,.para,.Para, p, p, p, p, p1, p1, p1, p1{
+     color:#000000;
+}
+.button-left:hover,.button-right:hover{
+     background-color:lightgrey;
+     color:#000000;
+}
+ .architect{
+         width:100%;
+         height:800px;
+         border:none;
+      font-size:36px;
+      letter-spacing: 4px;
+}
+.Br,.prjcts,.abt,.cntct,.contnt,.contnt2,.contnt3,.contnt4 ,.architect{
+          font-family: "Segoe UI",Arial,sans-serif;
+}
+.Br{
+      font-size:36px;
+      text-align: center;
+      letter-spacing: 4px;
+      position:absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      color:rgb(255, 255, 255);
+}
+.buton, .text,.text2,.text3,.TEXT,.TEXT2,.TEXT3,.TEXT4,.btn5,.footer,.end,.css{
+         color:#ffffff;
+}
+.buton{
+     padding:20px;
+     border:none;
+     background-color:#000;
+     font-size:36px;
+     opacity:0.7;
+  }
+
+.container{
+      width:100%;
+      height:100%;
+ }
+ .prjcts,.abt,.cntct{
+      padding-top: 16px;
+      padding-bottom:16px;
+      padding-left:05px;
+      margin-left:35px;
+      border-bottom: 1px solid lightgrey;
+      border-color:lightgrey;
+      font-weight: 400;
+      font-size: 24px;
+      display: block;
+      line-height: 1.5;
+      margin-right:30px;
+ }
+ .ROW1,.ROW2,.ROW3{
+       padding: 0 8px;
+       box-sizing: inherit;
+       display: flex;
+ }
+ .box,.BOX,.Box{
+     width: 23%;
+     margin-bottom: 16px;
+     float: left;
+     box-sizing: inherit;
+     padding: 0 8px;
+}
+ .img,.IMG,.imge,.image{
+     width:100%;
+     position:relative;
+     height:100%;
+ }
+ .house,.house2 ,.house3,.House,.House2,.House3,.House4,.team,.team1,.team2,.team3{
+     width:100%;
+     margin-left:20px;
+     padding-bottom:20px;
+ }
+ .text,.text2,.text3,.TEXT,.TEXT2,.TEXT3,.TEXT4{
+    background-color:#000000;
+    width:30%;
+    font-size: 15px;
+    display:block;
+    position:absolute;
+    left:0;
+    top:0;
+    transform: translate(-50%,-50%);
+    border:none;
+    margin-top:6%;
+    margin-left:65px;
+}.para,.Para{
+    font-size:15px;
+    line-height:1.5;
+    margin-left:40px;
+    margin-right:25px;
+}
+  .team,.team1,.team2,.team3{
+     padding-top:8%;
+ }
+  .contnt,.contnt2,.contnt3,.contnt4{
+     margin-left:20px;
+     font-size: 24px;
+}
+ p, p, p, p{
+   opacity: 0.60;
+   font-size: 15px;
+ }
+ p1, p1, p1, p1{
+    font-size:15px;
+    display:block;
+}
+.btn,.btn2,.btn3,.btn4{
+  font-size:15px;
+  cursor:pointer;
+  display: block;
+  width: 104%;
+  border: none;
+  padding: 10px 16px;
+  overflow: hidden;
+  text-decoration: none;
+  text-transform: none;
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-left:0px;
+}
+.btn:hover,
+ .btn2:hover,
+ .btn3:hover,
+ .btn4:hover,
+ .btn5:hover{
+     background-color:darkgrey;
+     color:#000;
+}
+.input{
+     border: 1px solid #ccc;
+     padding-top: 8px;
+     padding-bottom:8px;
+     display: block;
+     width:95%;
+     overflow: visible;
+     font: inherit;
+     margin-left:35px;
+     padding-left:10px;
+     box-sizing: inherit;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+/*    text-align: start;
+*/}
+.btn5{
+    background-color: #000;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: none;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    font: inherit;
+    margin-left:35px;
+    width:11.5%;
+    padding:8px;
+}
+.map{
+    margin-left:25px;
+    margin-right:25px;
+    width:96%;
+    margin-top:30px;
+}
+.footer{
+     background-color:#000000;
+     height:100px;
+}
+.end,.css{
+   text-align:center;
+   padding-top:30px;
+   font-size:15px;
+}
+.css:hover{
+      color:green;
+      cursor:pointer;
+}
+
+
+
+
